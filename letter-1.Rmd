@@ -1,0 +1,47 @@
+Dear `{learnr}` Colleagues,
+
+For the past six months, I have been writing `{learnr}` documents intensively 
+for a two-semester course I'm developing for the US Air Force Academy. (You can see the daily assignments 
+at links like <https://maa-statprep.shinyapps.io/141Z-daily-digital-38/> and 
+<https://maa-statprep.shinyapps.io/142Z-DD-01>, with the last two digits running in a sequence from -01 up.)
+
+The course enrollment will be ramped up from the current 150 students to about 1000 in 2022/2023, so 
+I have a big incentive to be attentive to matters like scaling, working with a team of faculty, how students
+hand in their work, and so on.
+
+In this environment, it becomes clear that `{learnr}` is just one component in a bigger system that includes tools 
+for authoring, grading, publishing, sharing, and management of a large collection of related documents.
+
+I'm writing to propose an online conference where people can quickly and informally share 
+their ideas/innovations/challenges in teaching with `{learnr}`, which I've tentatively named `learnr::gather`.
+
+There are some basic questions that I'm going to put aside for the moment, like, "Why not just put together a blog?" or 
+"Why not just arrange a `{learnr}` category on <https://community.rstudio.com/> or use the existing `{shiny}` category?" 
+I don't have a well-thought at answer to these, but I'm going to proceed as if an online conference is the right
+mode so that I can outline some of the topics that I think might be helpful to address.
+
+If you think you would be interested in presenting your take on any of these topics (in whatever mode), or you 
+have additional topics, or you think that how to handle a topic is already obvious and documented, or any other response, 
+please write back.
+
+Thanks,
+Danny
+
+## A few ideas for topics to share ideas and experiences about
+
+1. What is the scope of `{learnr}` for teaching? Is it just for teaching about R, or might it have a larger role to play in education? For instance, my USAFA course is calculus.
+2. Course management
+3. Authoring tools
+4. Submissions and grading
+5. Integrating shiny apps
+    a. What are good formats for maintainability and re-use of components?
+    b. How to style shiny apps for drill-type repetition of related problems?
+    c. How to integrate the shiny state with the `{learnr}` state for the purpose of submissions and grading?
+    d. Generalizing the lovely state-caching-in-browser capabilities to work with `{shiny}` or other components.
+5. Deployment
+    a. Managing multiple changing tutorials from semester to semester.
+    a. How to integrate `{learnr}` components into static documents. (E.g. a textbook with exercises/tutorials/shiny-apps embedded.)
+6. Lay usability
+7. Relationship to RStudio.cloud
+
+
