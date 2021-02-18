@@ -29,19 +29,34 @@ Danny
 
 ## A few ideas for topics to share ideas and experiences about
 
-1. What is the scope of `{learnr}` for teaching? Is it just for teaching about R, or might it have a larger role to play in education? For instance, my USAFA course is calculus.
-2. Course management
-3. Authoring tools
-4. Submissions and grading
-5. Integrating shiny apps
-    a. What are good formats for maintainability and re-use of components?
-    b. How to style shiny apps for drill-type repetition of related problems?
-    c. How to integrate the shiny state with the `{learnr}` state for the purpose of submissions and grading?
-    d. Generalizing the lovely state-caching-in-browser capabilities to work with `{shiny}` or other components.
-5. Deployment
+1. What is the scope of `{learnr}` for teaching.
+    a. Is it just for teaching about R, or might it have a larger role to play in education? For instance, my USAFA course is calculus. This question should logically come after the others, but I want to highlight the issue.
+    #. Are there obvious alternatives/complements that maintain the flexibility of `{learnr}`.
+#. Authoring tools
+    a. Managing libraries with lots of tutorials and lots of exercises/shiny apps. 
+    #. A bigger library of question types and programmable feedback.
+#. Submissions and grading
+    a. Using R integration with databases versus `{learnrhash}`-style 
+    #. Integration with course management systems
+    #. Authenticating submissions. (I'm using `{learnrhash}` with the institution's Office365/Teams system, but this sort of thing won't be available to many teachers at many institutions.)
+    #. Templates for grading exercises
+#. Integrating shiny apps
+    a. What are good formats for maintainability and re-use of components.
+    #. How to style shiny apps for drill-type repetition of related problems.
+    #. How to integrate the shiny state with the `{learnr}` state for the purpose of submissions and grading.
+    #. Generalizing the lovely state-caching-in-browser capabilities to work with `{shiny}` or other components.
+#. Deployment
     a. Managing multiple changing tutorials from semester to semester.
-    a. How to integrate `{learnr}` components into static documents. (E.g. a textbook with exercises/tutorials/shiny-apps embedded.)
-6. Lay usability
-7. Relationship to RStudio.cloud
+    #. How to integrate `{learnr}` components into static documents. (E.g. a textbook with exercises/tutorials/shiny-apps embedded.)
+    #. Speed of deployment. (I have a cycle of deploy/edit/deploy/.... See "Lay usability."
+    #. Mode for generating JavaScript-only multiple-choice questions for use in static documents.
+    #. Relationship to RStudio.cloud
+#. Lay usability
+    a. Making group editing/revision of tutorials easier. (Example: Using Google Drive instead of GitHub)
+    #. Incorporating small, individually testable components into a larger tutorial. (For me, `child="myexercise.Rmd"` has been my close companion.)
+    #. How to streamline the scope situation (context="setup", context="server"), or provide error/warning messages so that not every author needs to know about scope. 
+#. Financing
+    a. 
+
 
 
