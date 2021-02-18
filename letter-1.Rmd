@@ -1,7 +1,7 @@
 Dear `{learnr}` Colleagues,
 
 For the past six months, I have been writing `{learnr}` documents intensively 
-for a two-semester course I'm developing for the US Air Force Academy. (You can see the daily assignments 
+for a two-semester calculus course I'm developing for the US Air Force Academy. (You can see the daily assignments 
 at links like <https://maa-statprep.shinyapps.io/141Z-daily-digital-38/> and 
 <https://maa-statprep.shinyapps.io/142Z-DD-01>, with the last two digits running in a sequence from -01 up.)
 
@@ -10,7 +10,7 @@ I have a big incentive to be attentive to matters like scaling, working with a t
 hand in their work, and so on.
 
 In this environment, it becomes clear that `{learnr}` is just one component in a bigger system that includes tools 
-for authoring, grading, publishing, sharing, and management of a large collection of related documents.
+for authoring, revision, grading, publishing, and management of a large collection of related documents.
 
 I'm writing to propose an online conference where people can quickly and informally share 
 their ideas/innovations/challenges in teaching with `{learnr}`, which I've tentatively named `learnr::gather`.
@@ -30,7 +30,7 @@ Danny
 ## A few ideas for topics to share ideas and experiences about
 
 1. What is the scope of `{learnr}` for teaching.
-    a. Is it just for teaching about R, or might it have a larger role to play in education? For instance, my USAFA course is calculus. This question should logically come after the others, but I want to highlight the issue.
+    a. Is it just for teaching about R, or might it have a larger role to play in education? (This question should logically come after the others, but I want to highlight the issue.)
     #. Are there obvious alternatives/complements that maintain the flexibility of `{learnr}`.
 #. Authoring tools
     a. Managing libraries with lots of tutorials and lots of exercises/shiny apps. 
@@ -39,6 +39,7 @@ Danny
     a. Using R integration with databases versus `{learnrhash}`-style 
     #. Integration with course management systems
     #. Authenticating submissions. (I'm using `{learnrhash}` with the institution's Office365/Teams system, but this sort of thing won't be available to many teachers at many institutions.)
+    #. Gradebook management. 
     #. Templates for grading exercises
 #. Integrating shiny apps
     a. What are good formats for maintainability and re-use of components.
@@ -51,12 +52,13 @@ Danny
     #. Speed of deployment. (I have a cycle of deploy/edit/deploy/.... See "Lay usability."
     #. Mode for generating JavaScript-only multiple-choice questions for use in static documents.
     #. Relationship to RStudio.cloud
+    #. shinyapps.io settings that work for classes
 #. Lay usability
     a. Making group editing/revision of tutorials easier. (Example: Using Google Drive instead of GitHub)
     #. Incorporating small, individually testable components into a larger tutorial. (For me, `child="myexercise.Rmd"` has been my close companion.)
     #. How to streamline the scope situation (context="setup", context="server"), or provide error/warning messages so that not every author needs to know about scope. 
-#. Financing
-    a. 
+#. Financing. 
+    a. I figure I can run a course adequately at $1/student/month for the shinyapps.io server. Trivial. Except that money needs to be collected somehow.
 
 
 
